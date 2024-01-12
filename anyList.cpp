@@ -2,7 +2,7 @@
 
 using namespace std;
 
-template <typename T>
+template <typename T>  //creates a generic template for a class, meaning it can create with any datatype
 class List {
     private:
         T *data;
